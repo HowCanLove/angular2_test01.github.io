@@ -1,0 +1,7 @@
+
+<h1>
+  {{title}}
+</h1>
+<p>birthday is {{ birthday | date:format }}  {{1+1}}</p>
+<button (click)="toggleFormat()">点击切换</button>
+<router-outlet></router-outlet>

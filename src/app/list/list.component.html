@@ -1,0 +1,5 @@
+<ul>
+	<li *ngFor="let contact of contacts"><a [routerLink]='["/detail",contact.id]' (click)="getClick(contact)">{{contact.name}}</a></li>
+</ul>
+<a [routerLink]='["/collection"]' class="active">收藏</a>
+<a [routerLink]='["/list"]'>通讯录</a>
