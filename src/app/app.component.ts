@@ -20,4 +20,5 @@ export class AppComponent implements OnInit {
   toggleFormat (){
   	this.toggle = !this.toggle;
   }
+  
 }
